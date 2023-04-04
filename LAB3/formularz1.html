@@ -1,0 +1,66 @@
+<HTML>
+    <HEAD>
+        <TITLE> Formularze zadanie 1 </TITLE>
+    </HEAD>
+    <BODY>
+        <FORM ACTION="mailto:bb122918@stud.ur.edu.pl?subject=Formularz w HTML" method="POST">
+            <FIELDSET>
+                <LEGEND align="right"> Bartłomiej Babicz </LEGEND>
+                    <TABLE cellpadding="5" align="center" height="100%" weidth="100%">
+                        <TR><TD rowspan="3">
+                            <FONT color="red"><LABEL>Wybierz kierunek, na którym studiujesz</LABEL></FONT></BR></BR>
+                                <SELECT name="kierunki" size="9" multiple>
+                                <OPTGROUP label="Politechnika Rzeszowska">
+                                    <OPTION>Informatyka</OPTION>
+                                    <OPTION>Lotnictwo</OPTION>
+                                </OPTGROUP>
+                                <OPTGROUP label="Uniwersytet Rzeszowski">
+                                <OPTION>Socjologia</OPTION>
+                                <OPTION selected>Informatyka</OPTION>
+                                </OPTGROUP>
+                                <OPTGROUP label="Wyższa Szkoła Informatyki i Zarządzania">
+                                <OPTION>Dziennikarstwo</OPTION>
+                                <OPTION>Marketing internetowy</OPTION>
+                                </OPTGROUP>
+                            </SELECT>
+                        </TD>
+                        <TD>
+                            <TEXTAREA  readonly="readonly" name="Napisz coś o sobie:" rows="10" cols="50">Chciałbyś coś napisać ale nie możesz :)</TEXTAREA>
+                        </TD></TR>
+                        <TR><TD>
+                            <LABEL><FONT color="red">Wpisz hasło</FONT></LABEL></BR>
+                            <INPUT type="password" name="haslo" disabled="disabled">
+                            </TD></TR>
+                        <TR><TD>
+                            <INPUT type="reset" value="Wyczyść">
+                            </TD></TR>
+                        <TR><TD>
+                            <FONT color="red"><LABEL>Czym się interesujesz:</LABEL></FONT></BR>
+                        </BR>
+                            <INPUT type="checkbox" value="sztuka" name="zainteresowanie"><LABEL>Sztuka</LABEL></BR>
+                            <INPUT type="checkbox" value="inf" name="zainteresowanie"><LABEL>Informatyka</LABEL></BR>
+                                <INPUT type="checkbox" value="sport" name="zainteresowanie"><LABEL>Sport</LABEL></BR>
+                        </TD><TD>
+                            <input type="submit" value="Wyślij">
+                        </TD></TR>
+                        <TR><TD>
+                            <FONT><LABEL>Płeć</LABEL></FONT></BR>
+                            </BR>
+                            <INPUT type="radio" value="k" name="plec"><LABEL>Kobieta</LABEL></BR>
+                            <INPUT type="radio" value="m" name="plec"><LABEL>Mężczyzna</LABEL>   
+                        </TD></TR>
+
+
+
+
+
+
+
+
+
+                    </TABLE>
+            </FIELDSET>
+        </FORM>
+
+    </BODY>
+</HTML>

@@ -1,0 +1,73 @@
+<HTML>
+<HEAD>
+	<TITLE> Formularze </TITLE>
+</HEAD>
+<BODY>
+<FORM ACTION="mailto:kgarwol@ur.edu.pl" METHOD="POST">
+<!--wprowadzanie danych -->
+<INPUT TYPE="radio"> <BR />
+<INPUT TYPE="checkbox"> <BR />
+<INPUT TYPE="password"> <BR />
+<INPUT TYPE="text"> <BR />
+<input type="text" name="nazwa" readonly="readonly" />
+
+<input type="text" name="nazwa" disabled="disabled" />
+<input type="checkbox" name="nazwa" value="wartość" checked="checked" />Opis pola
+
+ <HR />
+ 
+<SELECT NAME="Uczelnie w Rzeszowie" MULTIPLE size="5">
+<OPTION> PRz
+<OPTION selected> UR
+<OPTION> WSIiZ
+</SELECT>
+
+ <HR />
+<TEXTAREA NAME="opinie" ROWS="10" COLS="50"> Napisz cos do mnie… </TEXTAREA>
+
+</FORM>
+<form enctype="text/plain" action="mailto:kgarwol@univ.rzeszow.pl?subject=Moj pierwszy formularz" method="POST">
+<input type="text" name="recipient" value=„DANE OSOBOWE">
+<table>
+<tr>
+<td>Imię: </td>
+<td><input type="text" name="imie"></td>
+</tr>
+<tr>
+<td>Płeć:</td>
+<td>
+<select name="plec">
+<option>….Określ płeć…
+<option>Kobieta
+<option>Mężczyzna
+</select>
+</td>
+</tr>
+<tr>
+<td>Wiek:</td>
+<td>
+Do 20<input type="radio" value="mniej_20" name="wiek">
+Ponad 20<input type="radio" value="wiecej_20" name="wiek">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<textarea NAME= "tresc"></textarea>
+</td>
+</tr>
+<tr><td colspan="2">
+<input type="submit" value="Prześlij"><input type="reset" value="Resetuj">
+</td>
+</tr>
+</table>
+</form>
+
+
+
+
+
+
+
+
+</BODY>
+</HTML>
