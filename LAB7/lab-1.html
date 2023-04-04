@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+
+    <p id="Tablice"></p>
+        
+    <!-- 
+        ZAD.1
+
+        Utwórz dwuwymiarową tablicę łańcuchów o nazwie tab na podstawie poniższych danych i wypisz wiersze tej tablicy.
+
+        1 a 
+        2 a b 
+        3 c b 
+         -->
+
+         <h4>Zadanie 1</h4>
+         <script language = "JavaScript">
+
+             const tab = [[1,"a"],[2,"a","b"],[3,"c","b"]];
+             
+
+             for(var i=0; i<3;i++)
+             {
+
+                document.write(tab[i]);
+                document.write("<br>");
+
+             }
+
+        </script>
+
+          <!-- 
+        ZAD.2
+
+        Wypisz elementy tablicy tab używając różnych rodzajów pętli for
+         -->
+
+         <h4>Zadanie 2</h4>
+         <script language = "JavaScript">
+
+            const tab2 = [[1,"a"],[2,"a","b"],[3,"c","b"]];
+
+
+
+
+            document.write("Tablica wypisana pierwszym for");
+            document.write("<br>");            
+
+             for(var i=0; i<3;i++)
+             {
+
+                document.write(tab2[i]);
+                document.write("<br>");
+
+             }
+
+             document.write("<br>");
+             document.write("Tablica wypisana drugim for");
+             document.write("<br>");
+
+             for(var i in tab)
+             {
+                 document.write(tab2[i]);
+                 document.write("<br>")
+             }
+
+             document.write("<br>");
+         
+        </script>
+
+          <!-- 
+        ZAD.3
+
+        Wypisz elementy tablicy tab z pominięciem pierwszego elementu z każdego wiersza. 
+         -->
+
+         <h4>Zadanie 3</h4>
+         <script language = "JavaScript">
+
+            for(var i=0; i<3;i++)
+             {
+
+                if(i==0)
+                {
+                document.write(tab2[i][1]);
+                document.write("<br>");
+                }
+                else{
+                document.write(tab2[i][1]);
+                document.write(tab2[i][2]);
+                document.write("<br>");
+                }
+
+             }
+         
+        </script>
+        
+          <!-- 
+        Zad. 4 
+ 
+        Podaj  kod,  który  utworzy  tablicę  pary  zawierającą  wszystkie  łańcuchy  utworzone  z  pierwszego 
+        elementu danego wiersza i pozostałych elementów w danych wierszu. Elementy w parze powinny być 
+        oddzielone spacją. 
+         -->
+
+         <h4>Zadanie 4</h4>
+         <script language = "JavaScript">
+
+             const tab3 = new Array();
+
+
+             for(var i=0; i<3;i++)
+             {
+                for(var j=0; j<tab2.length; j++)
+                {
+                    if(tab2[i][j]!=null)
+                    {
+                        tab3[i][0]=tab2[i][0];
+                        tab3[i][1]=tab2[i][1];
+                    }
+                }
+             }
+
+             
+             for(var i=0; i<3;i++)
+             {
+
+                document.write(tab3[i]);
+                document.write("<br>");
+
+             }
+             
+
+
+
+        </script>
+        
+          <!-- 
+        Zad. 5 
+ 
+        Podaj  kod,  który  utworzy  tablicę  pary1  zawierającą  wszystkie  łańcuchy  utworzone  z  pierwszego 
+        elementu danego  wiersza i  pozostałych elementów w  danych  wierszu  z  pominięciem  elementu  b. 
+        Elementy w parze powinny być oddzielone spacją. 
+
+         -->
+
+         <h4>Zadanie 5</h4>
+         <script language = "JavaScript">
+
+             
+
+
+
+        </script>
+        
+          <!-- 
+        Zad. 6 
+ 
+        Podaj  kod,  który  utworzy  tablicę  pary2  zawierającą  wszystkie  łańcuchy  utworzone  z  pierwszego 
+        elementu danego  wiersza i  pozostałych elementów w  danych  wierszu  z  pominięciem  elementu  c. 
+        Elementy w parze powinny być oddzielone spacją. 
+         -->
+
+         <h4>Zadanie 6</h4>
+         <script language = "JavaScript">
+
+             
+
+
+
+        </script>
+        
+          <!-- 
+        Zad. 7 
+ 
+        Podaj kod, który utworzy tablice pary1 oraz pary2 z poprzedniego zadania w jednym przebiegu. 
+         -->
+
+         <h4>Zadanie 7</h4>
+         <script language = "JavaScript">
+
+             
+
+
+
+        </script>
+        
+    
+</body>
+</html>
