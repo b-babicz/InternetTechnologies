@@ -1,0 +1,99 @@
+BODY
+{
+	background-image: url("images/background.jpg");
+	background-attachment: fixed;
+	font-size: 12px;
+	font-family: Verdana;
+	color: #000080
+}
+
+.centertable {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#pierwszy
+{
+	font-family: Arial;
+	font-size: 20px;
+	color: #000000;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#drugi
+{
+	font-family: 'Times New Roman';
+	font-size: 200px;	
+	margin-left: 0px;
+	margin-top: 0px;
+	
+}
+
+TABLE, td
+{
+	border: 1;
+	border-collapse: collapse;
+	background-color: red;
+	border-style: dashed;
+	height: 150;
+}
+#tabela1
+{
+	background-color: yellow;
+	border-color: black;
+	border-style: solid;
+	border-color: white;
+	height: 50;
+	width: 50;
+}
+OL
+{
+	color: red;
+	list-style-type: decimal;
+}
+
+UL
+{
+	color: blue;
+	list-style-type: disc;
+	font-style: italic 
+}
+
+A:LINK.linkjeden
+{
+	font-family: Verdana;
+	font-size: 20px;
+	color: red;
+}
+A:HOVER.linkjeden
+{
+	font-size:100px;
+	color: blue;
+}
+A:VISITED.linkjeden
+{
+	font-size:20px;
+	color: gray;
+	text-decoration:none;
+}
+
+A:LINK.linkdwa
+{
+	font-family: Verdana;
+	font-size: 100px;
+	color: blue;
+}
+A:HOVER.linkdwa
+{
+	font-family: Arial;
+	font-size: 20px;
+	color: green;
+}
+A:VISITED.linkdwa
+{
+	font-family: Verdana;
+	font-size: 20px;
+	color: gray;
+	text-decoration: none;
+	
+}
