@@ -1,0 +1,34 @@
+P 
+{
+	font-size: 100pt;
+	margin-left: 10%;
+}
+
+.maly
+{
+	font-size: 10pt;
+}
+
+#przyklad
+{
+	font-size: 50pt;
+}
+
+A:LINK
+{
+	font-size:12pt;
+	color:navy;
+}
+
+A:VISITED
+{
+	font-size: 12pt;
+	color: blue;
+}
+A:HOVER
+{
+	font-size: 30pt;
+	color:red;
+	background: yellow;
+	text-decoration: none;
+}
