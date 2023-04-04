@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta nazwa="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>JavaScript Website</title>
+</head>
+<body>
+
+  <h1>Gra w papier, kamień, nożyce</h2>
+  </br>
+  <ul>
+    <p>Zasady gry:</p>
+    <li>Gracz klika w przycisk odpowiadający wybranej akcji.</li>
+    <li>Przeciwnik odpowiada „wybraną" przez siebie akcją</li>
+    <li>Jeżeli:</li>
+    <ol>
+      <li>Znak wybrany przez Ciebie „bije" znak wybrany przez Przeciwnika - punkt idzie do Ciebie.</li>
+      <li>Znak wybrany przez Przecinika „bije" znak wybrany przez Ciebie - punkt idzie do Przeciwnika.</li>
+      <li>Znak wybrany przez Ciebie „nie bije" znaku Przeciwnika i odwrotnie - punkt nie zostanie przydzielony (remis).</li>
+    </ol>
+  </ul>
+  </br>
+  </br>
+  </br>
+  </br>
+
+
+
+
+    <div class="wybraneZnaki">
+        <button class="wybrane" data-wybrane="papier">Papier</button>
+		<button class="wybrane" data-wybrane="kamien">Kamień</button>
+        <button class="wybrane" data-wybrane="nozyce">Nożyce</button>
+      </div>
+      <div class="wyniki">
+        <div>
+          Gracz pierwszy
+          <span class="otrzymane-punkty" data-wyniki-gracza>0</span>
+        </div>
+        <div data-kolumna-wynikow>
+          Przeciwnik
+          <span class="otrzymane-punkty" data-wyniki-komputera>0</span>
+        </div>
+
+<script>
+const przyciskiWyboru = document.querySelectorAll('[data-wybrane]')
+const kolumna_wynikow = document.querySelector('[data-kolumna-wynikow]')
+const wynik_komputera = document.querySelector('[data-wyniki-komputera]')
+const wyniki_uzytkownika = document.querySelector('[data-wyniki-gracza]')
+const wybraneZnaki = [
+  {
+    nazwa: 'kamien',
+    grafika: '🪨',
+    bity_znak: 'nozyce'
+  },
+  {
+    nazwa: 'papier',
+    grafika: '📃',
+    bity_znak: 'kamien'
+  },
+  {
+    nazwa: 'nozyce',
+    grafika: '✂️',
+    bity_znak: 'papier'
+  }
+]
+
+przyciskiWyboru.forEach(przyciskWybranaAkcja => {
+  przyciskWybranaAkcja.addEventListener('click', e => {
+    const wybranenazwa = przyciskWybranaAkcja.dataset.wybrane
+    const wybrane = wybraneZnaki.find(wybrane => wybrane.nazwa === wybranenazwa)
+    makewybrane(wybrane)
+  })
+})
+
+function ModyfikujWynik(Punkty) {
+  Punkty.innerText = parseInt(Punkty.innerText) + 1
+}
+
+function makewybrane(wybrane) {
+  const komputerWybrane = randomWybor()
+  const graczZwycieza = isWinner(wybrane, komputerWybrane)
+  const komputerZwycieza = isWinner(komputerWybrane, wybrane)
+
+  dodajWynikiWyboru(komputerWybrane, komputerZwycieza)
+  dodajWynikiWyboru(wybrane, graczZwycieza)
+
+  if (graczZwycieza) ModyfikujWynik(wyniki_uzytkownika)
+  if (komputerZwycieza) ModyfikujWynik(wynik_komputera)
+}
+
+function dodajWynikiWyboru(wybrane, zwyciezca) {
+  const div = document.createElement('div')
+  div.innerText = wybrane.grafika
+  div.classList.add('wynik_dla_wybranego')
+  if (zwyciezca) div.classList.add('zwyciezca')
+  kolumna_wynikow.after(div)
+}
+
+function isWinner(wybrane, przeciwnikWybrane) {
+  return wybrane.bity_znak === przeciwnikWybrane.nazwa
+}
+
+function randomWybor() {
+  const randomIndex = Math.floor(Math.random() * wybraneZnaki.length)
+  return wybraneZnaki[randomIndex]
+}
+</script>
+
+
+</body>
+</html>

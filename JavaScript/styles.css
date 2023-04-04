@@ -1,0 +1,37 @@
+body {
+    background-color: #faf1d6;
+    align-items: center;
+    text-align: center;
+  }
+
+  ul{
+    text-align: left;
+    font-style: italic;
+  }
+
+  p{
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  .wybraneZnaki {
+    display: flex;
+    justify-content: center;
+  }
+  
+ .wybrane {
+    margin: auto;
+    outline: none;
+    cursor: pointer;
+    font-size: 2em;
+    align-items: center;
+  } 
+  
+  .wyniki {
+    margin-top: 2em;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
