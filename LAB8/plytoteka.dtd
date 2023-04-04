@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT plytoteka (album*)> 
+<!ELEMENT tytul (#PCDATA)> 
+<!ELEMENT album (tytul, wykonawc?, nagrania?))> 
+<!ELEMENT nagrania (tytul*)>
+<!ELEMENT zakresStereo (#PCDATA)> 
+<!ELEMENT zakresMono (#PCDATA)> 

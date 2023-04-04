@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT stacje (radio*)> 
+<!ELEMENT nazwa (#PCDATA)> 
+<!ELEMENT radio (nazwa, zakresStereo+, zakresMono?))> 
+<!ELEMENT zakresStereo (#PCDATA)> 
+<!ELEMENT zakresMono (#PCDATA)> 

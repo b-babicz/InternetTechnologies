@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT państwa (państwo*)> 
+<!ELEMENT nazwa (#PCDATA)> 
+<!ELEMENT państwo (nazwa?, stolica?, obszar?, ludność?, główne_miasta*, główne_rzeki*)> 
+<!ELEMENT stolica (#PCDATA)> 
+<!ELEMENT obszar (#PCDATA)> 
+<!ELEMENT ludność (#PCDATA)> 
+<!ELEMENT główne_miasta (#PCDATA)> 
+<!ELEMENT główne_rzeki (#PCDATA)> 

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE stacje SYSTEM [
+<!ELEMENT stacje (radio*)> 
+<!ELEMENT nazwa (#PCDATA)> 
+<!ELEMENT radio (nazwa, (zakresStereo+, zakresMono?))> 
+<!ELEMENT zakresStereo (#PCDATA)> 
+<!ELEMENT zakresMono (#PCDATA)> 
+]>
+
+<stacje>
+
+<radio>
+<nazwa>Radio Eska</nazwa>
+<zakresStereo>97,3 MHz</zakresStereo>
+<zakresStereo>96,5 MHz</zakresStereo>
+</radio>
+
+<radio>
+<nazwa>RMF FM</nazwa>
+<zakresStereo>99,3 MHz</zakresStereo>
+<zakresStereo>103,2 MHz</zakresStereo>
+<zakresMono>91,1 Mhz</zakresMono>
+</radio>
+
+<radio>
+<nazwa>Radio ZET</nazwa>
+<zakresStereo>100,7 MHz</zakresStereo>
+</radio>
+
+
+
+
+
+</stacje>
