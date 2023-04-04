@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT książki (książka*)> 
+<!ELEMENT tytuł (#PCDATA)> 
+<!ELEMENT książka (tytuł, podtytuł?, autor*, wydawnictwo, datawydania, numerwydania, numerISBN))>
+<!ELEMENT podtytuł (#PCDATA)>
+<!ELEMENT autor (#PCDATA)> 
+<!ELEMENT wydawnictwo (#PCDATA)> 
+<!ELEMENT datawydania (#PCDATA)> 
+<!ELEMENT numerwydania (#PCDATA)> 
+<!ELEMENT numerISBN (#PCDATA)> 

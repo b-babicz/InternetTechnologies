@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<katalogi>
+
+    <katalog>
+    <nazwa>Laboratorium</nazwa>
+    <iloscplikow>6</iloscplikow>
+    <iloscpodkatalogow>2</iloscpodkatalogow>
+    <rozmiar>20,8 MB</rozmiar>
+    <czasutworzenia>10-07-2022</czasutworzenia>
+    <atrybut>Tylko do odczytu</atrybut>
+    <podkatalog>
+    <nazwa>XML</nazwa>
+    <atrybut>Tylko do odczytu</atrybut>
+    <plik>
+    <nazwa>styles.css</nazwa>
+    <atrybut>Brak</atrybut>
+    </plik>
+    <plik>
+    <nazwa>Untitled-1.xml</nazwa>
+    <atrybut>Brak</atrybut>
+    </plik>
+    </podkatalog><podkatalog>
+    <nazwa>XML_11-01-2023</nazwa>
+    <atrybut>Tylko do odczytu</atrybut>
+    <plik>
+    <nazwa>ksiazka.xml</nazwa>
+    <atrybut>Brak</atrybut>
+    </plik>
+    <plik>
+    <nazwa>osoba.xml</nazwa>
+    <atrybut>Brak</atrybut>
+    </plik>
+    </podkatalog>
+    <plik>
+    <nazwa>CSS_cwiczenia_2.jpg</nazwa>
+    <atrybut>Brak</atrybut>
+    </plik>
+    <plik>
+    <nazwa>CSS_cwiczenia.jpg</nazwa>
+    <atrybut>Brak</atrybut>
+    </plik>
+    <plik>
+    <nazwa>Lista zakupów_1.docx</nazwa>
+    <atrybut>Brak</atrybut>
+    </plik>
+    </katalog>
+
+</katalogi>

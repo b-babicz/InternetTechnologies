@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT katalogi (katalog*)> 
+<!ELEMENT nazwa (#PCDATA)> 
+<!ELEMENT katalog (nazwa, podkatalog*, iloscplikow*, iloscpodkatalogow, rozmiar, czasutworzenia, atrybut*, plik*))>
+<!ELEMENT podkatalog (nazwa,atrybut*)>
+<!ELEMENT plik (nazwa,atrybut*)>
+<!ELEMENT iloscplikow (#PCDATA)> 
+<!ELEMENT iloscpodkatalogow (#PCDATA)> 
+<!ELEMENT datawydania (#PCDATA)> 
+<!ELEMENT czasutworzenia (#PCDATA)> 
+<!ELEMENT atrybut (#PCDATA)> 

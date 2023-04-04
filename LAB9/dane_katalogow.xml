@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!DOCTYPE dane_katalogow SYSTEM "dane_katalogow.dtd"> 
+
+<katalogi>
+
+    <katalog>
+    <nazwa>Laboratorium</nazwa>
+    <iloscplikow>6</iloscplikow>
+    <iloscpodkatalogow>2</iloscpodkatalogow>
+    <rozmiar>20,8 MB</rozmiar>
+    <czasutworzenia>10-07-2022</czasutworzenia>
+    <atrybut>Tylko do odczytu</atrybut>
+    <podkatalog>
+    <nazwa>XML</nazwa>
+    <atrybut>Tylko do odczytu</atrybut>
+    <plik>
+    <nazwa>styles.css</nazwa>
+    </plik>
+    <plik>
+    <nazwa>Untitled-1.xml</nazwa>
+    </plik>
+    </podkatalog><podkatalog>
+    <nazwa>XML_11-01-2023</nazwa>
+    <atrybut>Tylko do odczytu</atrybut>
+    <plik>
+    <nazwa>ksiazka.xml</nazwa>
+    </plik>
+    <plik>
+    <nazwa>osoba.xml</nazwa>
+    </plik>
+    </podkatalog>
+    <plik>
+    <nazwa>CSS_cwiczenia_2.jpg</nazwa>
+    </plik>
+    <plik>
+    <nazwa>CSS_cwiczenia.jpg</nazwa>
+    <atrybut>Tylko do odczytu</atrybut>
+    </plik>
+    <plik>
+    <nazwa>Lista zakupów_1.docx</nazwa>
+    </plik>
+    </katalog>
+
+</katalogi>

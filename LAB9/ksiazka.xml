@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<książki>
+
+    <książka>
+    <tytuł>Ferdydurke</tytuł>
+    <autor>Witold Gombrowicz</autor>
+    <wydawnictwo>Filia</wydawnictwo>
+    <datawydania>2018-04-03</datawydania>
+    </książka>
+
+    <książka>
+    <tytuł>Wielki Gatsby</tytuł>
+    <autor>Francis Scott Fitzgerald</autor>
+    <wydawnictwo>Świat Książki</wydawnictwo>
+    <datawydania>1925-04-10</datawydania>
+    </książka>
+
+</książki>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<pociągi>
+
+    <trasa>Siedlce - Warszawa Zachodnia</trasa>
+
+    <pociag>
+    <odjazd>4:45</odjazd>
+    <przyjazd>6:30</przyjazd>
+    <kursowanie>Codziennie</kursowanie>
+    <rodzajpociagu>Osobowy</rodzajpociagu>
+    </pociag>
+
+    <pociag>
+    <odjazd>5:20</odjazd>
+    <przyjazd>7:13</przyjazd>
+    <kursowanie>Soboty i niedziele</kursowanie>
+    <rodzajpociagu>Osobowy</rodzajpociagu>
+    </pociag>
+
+    <pociag>
+    <odjazd>5:49</odjazd>
+    <przyjazd>7:30</przyjazd>
+    <kursowanie>Codziennie</kursowanie>
+    <rodzajpociagu>Osobowy</rodzajpociagu>
+    </pociag>
+
+    <pociag>
+    <odjazd>7:29</odjazd>
+    <przyjazd>8:55</przyjazd>
+    <kursowanie>Codziennie</kursowanie>
+    <rodzajpociagu>Pośpieszny</rodzajpociagu>
+    </pociag>
+
+
+
+
+
+</pociągi>

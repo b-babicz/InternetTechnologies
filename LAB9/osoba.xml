@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<osoby>
+
+    <osoba>
+    <imie>Jan</imie>
+    <nazwisko>Kowalski</nazwisko>
+    <dataurodzenia>1-05-1973</dataurodzenia>
+    <miejsceurodzenia>Warszawa</miejsceurodzenia>
+    <datazatrudnienia>1-01-2022</datazatrudnienia>
+    <miejscezatrudnienia>Miejskie Przedsiębiorstwo Komunikacyjne w Rzeszowie</miejscezatrudnienia>
+    </osoba>
+
+    <osoba>
+    <imie>Ignacy</imie>
+    <nazwisko>Janiak</nazwisko>
+    <dataurodzenia>18-07-1986</dataurodzenia>
+    <miejsceurodzenia>Rzeszów</miejsceurodzenia>
+    <datazatrudnienia>1-06-2020</datazatrudnienia>
+    <miejscezatrudnienia>Zakład Doskonalenia Zawodowego</miejscezatrudnienia>
+    </osoba>
+
+</osoby>

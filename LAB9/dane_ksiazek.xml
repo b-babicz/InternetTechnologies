@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!DOCTYPE dane_ksiazek SYSTEM "dane_ksiazek.dtd"> 
+<książki>
+
+    <książka>
+    <tytuł>Ferdydurke</tytuł>
+    <autor>Witold Gombrowicz</autor>
+    <wydawnictwo>Filia</wydawnictwo>
+    <datawydania>2018-04-03</datawydania>
+    <numerwydania>4</numerwydania>
+    <numerISBN>566566556485446448</numerISBN>
+    </książka>
+
+
+</książki>
